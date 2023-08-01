@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Forms Assignments</title>
+		<link rel="stylesheet" href="assignment2.css" />
+	</head>
+	<body>
+		<main>
+			<!-- contact form -->
+			<form action="#" method="post">
+				<div class="container">
+					<h1>Contact Us</h1>
+					<label for="contactName">Name:</label>
+					<input type="text" id="contactName" />
+					<label for="contactEmail">Email:</label>
+					<input type="text" id="contactEmail" />
+					<label for="contactMessage">Message:</label>
+					<textarea
+						name="contactMessage"
+						id="contactMessage"
+						rows="3"
+					></textarea>
+					<button type="submit">Submit</button>
+				</div>
+			</fo>
+			<!-- login form -->
+			<form action="#" method="post">
+				<div class="container">
+					<h1>Login</h1>
+					<label for="loginUsername">Username:</label>
+					<input type="text" id="loginUsername" />
+					<label for="loginPassword">Password:</label>
+					<input type="password" id="loginPassword" />
+				</div>
+			</form>
+			<!-- survey form -->
+			<form action="#" method="post">
+				<div class="container">
+					<h1>Survey</h1>
+					<label for="surveyName">Name:</label>
+					<input type="text" id="surveyName" />
+					<label for="surveyAge">Age:</label>
+					<input type="number" id="surveyAge" min="1" />
+					<p class="bold">Gender:</p>
+					<div class="radio">
+						<input type="radio" id="male" name="gender" value="male" />
+						<label class="normal-text" for="male">Male</label>
+					</div>
+					<div class="radio">
+						<input type="radio" id="female" name="gender" value="female" />
+						<label class="normal-text" for="female">Female</label>
+					</div>
+					<div class="radio">
+						<input type="radio" id="other" name="gender" value="other" />
+						<label class="normal-text" for="other">Other</label>
+					</div>
+					<p class="bold">Which programming languages do you know?</p>
+					<div class="checkbox">
+						<input type="checkbox" name="html" id="html">
+						<label class="normal-text" for="html">HTML</label>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="css" id="css">
+						<label class="normal-text" for="css">CSS</label>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="javascript" id="javascript">
+						<label class="normal-text" for="javascript">Javascript</label>
+					</div>
+					<label for="comments">Comments:</label>
+					<textarea name="comments" id="comments" rows="3"></textarea>
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</main>
+	</body>
+</html>
